@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'EB Garamond', serif;
+
+}
+
+.bg-primary{
+    background-color: #B68C5A !important;
+}
+
+.bg-primary:hover{
+    background-color: #a16c2a !important;
+}
