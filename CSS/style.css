@@ -23,3 +23,22 @@ h1,h2,h3,h4,h5,h6{
 .bg-primary:hover{
     background-color: #a16c2a !important;
 }
+
+.background-image{
+    background-image:url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media all and (max-width:575px) {
+    .background-image{
+        background-image:url(../images/banner-sm.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .w-sm-100{
+        width: 100% !important;
+    }
+    
+}
